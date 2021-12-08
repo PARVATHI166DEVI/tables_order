@@ -1,6 +1,6 @@
 var b = 1;
 var s = "";
-function cal(){
+function call(){
     for(let i=1;i<=10;i++){
         s = (i*b)+" ";
         if(b==1)
@@ -29,5 +29,5 @@ function cal(){
     b++;
     document.write("<br>");
 };
-var timer = setInterval(cal, 1000);
+var timer = setInterval(call, 5000);
 
